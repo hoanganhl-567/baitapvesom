@@ -10,7 +10,8 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
 	line-height: 1.7em; 
-	background-color: #fff;
+	background: darkgreen;
+	color:white;
 	background-repeat: repeat-x;
 	background-position: top	
 }
