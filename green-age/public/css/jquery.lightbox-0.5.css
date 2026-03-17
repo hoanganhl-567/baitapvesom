@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+/* WRAPPER */
+#tooplate_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* HEADER */
+#tooplate_header {
+    padding: 20px;
+}
+
+#site_title h1 a {
+    color: #6cc000;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+/* MENU */
+#tooplate_menu {
+    background: #222;
+    padding: 10px;
+}
+
+#tooplate_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#tooplate_menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#tooplate_menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SLIDER */
+#tooplate_middle {
+    width: 960px;
+}
+
+/* MAIN */
+#tooplate_main {
+    padding: 20px;
+}
+
+/* COLUMN */
+.col_w450 {
+    width: 450px;
+    float: left;
+}
+
+.float_r {
+    float: right;
+}
+
+.float_l {
+    float: left;
+}
+
+/* BOX */
+.wwd_box {
+    margin-bottom: 20px;
+}
+
+/* PROJECT */
+h2 {
+    margin-top: 10px;
+}
+
+/* FOOTER */
+#tooplate_cr_wrapper {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

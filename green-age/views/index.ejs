@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Green Age</title>
+
+<link href="/tooplate_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" media="screen" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="/js/jquery.nivo.slider.js"></script>
+
+<script>
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+
+$(window).on('load', function() {
+    $('#slider').nivoSlider({
+        effect:'random',
+        slices:10,
+        animSpeed:500,
+        pauseTime:2200,
+        startSlide:0,
+        directionNav:false,
+        controlNav:false,
+        pauseOnHover:true
+    });
+});
+</script>
+
+</head>
+
+<body class="homepage">
+
+<div id="tooplate_wrapper">
+
+    <div id="tooplate_header">
+        <div id="site_title">
+            <!-- 🔥 DÒNG NÀY DÙNG ĐỂ TẠO CONFLICT -->
+            <h1><a href="/">Green Age Website</a></h1>
+        </div>
+    </div>
+
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="/" class="current">Home</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+        <div id="search_box">
+            <form action="#">
+                <input type="text" value="Search" name="q"
+                onfocus="clearText(this)" onblur="clearText(this)" />
+            </form>
+        </div>
+    </div>
+
+    <div id="tooplate_middle">
+        <div id="slider">
+            <img src="/images/slideshow/01.jpg" />
+            <img src="/images/slideshow/02.jpg" />
+            <img src="/images/slideshow/03.jpg" />
+            <img src="/images/slideshow/04.jpg" />
+        </div>
+    </div>
+
+    <div id="tooplate_main">
+
+        <h2>Welcome to Green Age</h2>
+
+        <div class="col_w450 float_l">
+            <div class="wwd_box">
+                <img src="/images/icon1.png" />
+                <h3>Download Free Templates</h3>
+                <p>Green Age is a free website template.</p>
+            </div>
+
+            <div class="wwd_box">
+                <img src="/images/icon2.png" />
+                <h3>Simple Design</h3>
+                <p>Clean and easy layout for student project.</p>
+            </div>
+        </div>
+
+        <div class="col_w450 float_r">
+            <div class="wwd_box">
+                <img src="/images/icon3.png" />
+                <h3>Online Marketing</h3>
+                <p>Modern responsive style.</p>
+            </div>
+
+            <div class="wwd_box">
+                <img src="/images/icon4.png" />
+                <h3>Creative Layout</h3>
+                <p>Easy to customize.</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="tooplate_cr_wrapper">
+    <div id="tooplate_cr">
+        Copyright © 2026 Green Age
+    </div>
+</div>
+
+</body>
+</html>
